@@ -1,0 +1,27 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 3MB
+      max-request-size: 12MB
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/timeoff
+    username: root
+    password: 8338
+
+logging:
+  level:
+    org:
+      hibernate: info
+
+open:
+  api:
+    travel:
+      key: EZzp+QWv74FkNAGqC0HxBUEkmtYFulgj7Ee8zEwGCUbcAUb4r2gFgMqk9nihVCclyPn+Yx68wCT1Eb858Hi1pg==
