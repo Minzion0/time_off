@@ -13,7 +13,7 @@ import lombok.Data;
  */
 @Data
 public class FestivalInfoBoardVo {
-    private Long contentId;
+    private String  contentId;
     private String title;
     private String thumbnailImgUri;
     private String addr;
